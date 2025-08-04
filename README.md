@@ -14,7 +14,33 @@ Inside, you’ll find:
 - 📂 Structured files in both **JSON** and **Markdown**
 
 ---
+📝 How to Use
+Clone or download the repo.
 
+Use the .json file if you're building an app or quiz engine.
+
+Use the .md file to study directly or embed into GitHub Pages or Docs.
+
+All answers include ✅ correct choices and 📝 detailed explanations.
+
+🔗 Quick Links
+🎯 [Scrum Guide (2020)](https://scrumguides.org)
+
+🧪 ./pspo2_sample_questions.json
+
+📚 ./pspo2_full_60_questions.json
+
+📖 ./pspo2_full_60_questions.md
+
+🧠 Want More?
+We’re continuously adding more questions for PSPO I & II.
+If you want unique, real-world exam simulations or wish to contribute, open an issue or submit a PR.
+
+🙌 Contributions & Feedback
+If this helped you prepare or pass the exam, please ⭐ star the repo and share it with others!
+
+Got feedback? Submit an Issue or email us.
+---
 ## 📂 File Structure
 
 ```bash
@@ -23,3 +49,6 @@ pspo-certification-prep/
 ├── pspo2_full_60_questions.json      # Full 60-question set in JSON
 ├── pspo2_full_60_questions.md        # Full 60-question set in Markdown
 └── README.md                         # You're here
+
+
+
