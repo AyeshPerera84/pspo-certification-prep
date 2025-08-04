@@ -26,6 +26,8 @@ All answers include ✅ correct choices and 📝 detailed explanations.
 🔗 Quick Links
 🎯 [Scrum Guide (2020)](https://scrumguides.org)
 
+[SCRUM PO - BEST Q&A SET Found on the Internet!](https://mlapshin.com/index.php/scrum-quizzes/po-learning-mode/)
+
 🧪 ./pspo2_sample_questions.json
 
 📚 ./pspo2_full_60_questions.json
