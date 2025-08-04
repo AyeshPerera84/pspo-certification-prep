@@ -1,0 +1,752 @@
+[
+    {
+        "id": 100,
+        "question": "You notice that the team completes every Sprint but rarely reflects on value outcomes. What should you do as a Product Owner? (Variant 1)",
+        "options": {
+            "a": "Focus on throughput",
+            "b": "Encourage discussion around user feedback and business results during Sprint Reviews",
+            "c": "Ask the Scrum Master to add more refinement meetings",
+            "d": "Increase team velocity"
+        },
+        "correct_answer": "b",
+        "explanation": "Sprint Reviews are for inspecting value, not just delivery. A good PO steers attention to outcomes."
+    },
+    {
+        "id": 101,
+        "question": "What does it mean for a Product Owner to act as a \u201cvalue maximizer\u201d? (Variant 2)",
+        "options": {
+            "a": "Ensure all backlog items are delivered",
+            "b": "Create the most PBIs",
+            "c": "Continuously optimize what the team builds to improve stakeholder and user outcomes",
+            "d": "Decrease bugs in production"
+        },
+        "correct_answer": "c",
+        "explanation": "The PO role isn\u2019t about output volume but focusing the team on value creation and adaptation."
+    },
+    {
+        "id": 102,
+        "question": "When would a Product Owner consider rejecting a \u201cdone\u201d increment? (Variant 3)",
+        "options": {
+            "a": "When it's missing unit tests",
+            "b": "If it does not deliver value or meet the Definition of Done",
+            "c": "If the Scrum Master says it\u2019s poor",
+            "d": "Never \u2014 all \u201cdone\u201d work must be accepted"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO has the right and responsibility to accept or reject work that doesn't meet value or DoD standards."
+    },
+    {
+        "id": 103,
+        "question": "A Product Owner is consistently late to Sprint Planning. What could be the impact? (Variant 4)",
+        "options": {
+            "a": "No major impact if backlog is ready",
+            "b": "Loss of trust, unclear Sprint Goals, and misalignment on priorities",
+            "c": "Better self-management from the team",
+            "d": "Faster Sprints"
+        },
+        "correct_answer": "b",
+        "explanation": "PO presence in planning is essential for setting direction, clarifying priorities, and co-creating goals."
+    },
+    {
+        "id": 104,
+        "question": "What should a Product Owner use to support value-based decisions? (Variant 5)",
+        "options": {
+            "a": "Customer feedback",
+            "b": "Business KPIs",
+            "c": "Cost of delay",
+            "d": "Number of lines of code",
+            "e": "Total story points"
+        },
+        "correct_answer": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "Value-based decisions rely on outcome-oriented data, not vanity metrics."
+    },
+    {
+        "id": 105,
+        "question": "A stakeholder requests frequent changes. How should the Product Owner handle this? (Variant 6)",
+        "options": {
+            "a": "Reject all mid-Sprint changes",
+            "b": "Welcome new information, evaluate based on value, and adapt backlog accordingly",
+            "c": "Ask Scrum Master to block changes",
+            "d": "Only allow changes during refinement"
+        },
+        "correct_answer": "b",
+        "explanation": "Scrum is adaptive. Mid-Sprint changes aren\u2019t implemented during the Sprint, but POs still inspect and plan for the future."
+    },
+    {
+        "id": 106,
+        "question": "What is a common anti-pattern in Product Ownership? (Variant 7)",
+        "options": {
+            "a": "Using metrics to make decisions",
+            "b": "Acting as a proxy for stakeholders without engaging them directly",
+            "c": "Setting a clear Product Goal",
+            "d": "Sharing backlog ownership with the team"
+        },
+        "correct_answer": "b",
+        "explanation": "A great PO brings stakeholders into the process instead of merely representing them."
+    },
+    {
+        "id": 107,
+        "question": "Who decides whether to release an increment to production? (Variant 8)",
+        "options": {
+            "a": "Scrum Master",
+            "b": "Product Owner",
+            "c": "Development Team",
+            "d": "Project Manager"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO owns value delivery and makes release decisions based on business readiness."
+    },
+    {
+        "id": 108,
+        "question": "What\u2019s the best way for a Product Owner to handle technical debt? (Variant 9)",
+        "options": {
+            "a": "Ignore it if it's not visible",
+            "b": "Work with the team to understand its impact on value and prioritize accordingly",
+            "c": "Let developers decide alone",
+            "d": "Move it to a separate backlog"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO must understand the long-term cost of tech debt and balance it against value delivery."
+    },
+    {
+        "id": 109,
+        "question": "Which tool is best for measuring a Product Owner's effectiveness? (Variant 10)",
+        "options": {
+            "a": "Velocity chart",
+            "b": "Burndown chart",
+            "c": "Evidence-Based Management (EBM) framework",
+            "d": "Number of bugs fixed"
+        },
+        "correct_answer": "c",
+        "explanation": "EBM focuses on value metrics (e.g., time-to-market, customer satisfaction) and supports continuous improvement."
+    },
+    {
+        "id": 110,
+        "question": "You notice that the team completes every Sprint but rarely reflects on value outcomes. What should you do as a Product Owner? (Variant 11)",
+        "options": {
+            "a": "Focus on throughput",
+            "b": "Encourage discussion around user feedback and business results during Sprint Reviews",
+            "c": "Ask the Scrum Master to add more refinement meetings",
+            "d": "Increase team velocity"
+        },
+        "correct_answer": "b",
+        "explanation": "Sprint Reviews are for inspecting value, not just delivery. A good PO steers attention to outcomes."
+    },
+    {
+        "id": 111,
+        "question": "What does it mean for a Product Owner to act as a \u201cvalue maximizer\u201d? (Variant 12)",
+        "options": {
+            "a": "Ensure all backlog items are delivered",
+            "b": "Create the most PBIs",
+            "c": "Continuously optimize what the team builds to improve stakeholder and user outcomes",
+            "d": "Decrease bugs in production"
+        },
+        "correct_answer": "c",
+        "explanation": "The PO role isn\u2019t about output volume but focusing the team on value creation and adaptation."
+    },
+    {
+        "id": 112,
+        "question": "When would a Product Owner consider rejecting a \u201cdone\u201d increment? (Variant 13)",
+        "options": {
+            "a": "When it's missing unit tests",
+            "b": "If it does not deliver value or meet the Definition of Done",
+            "c": "If the Scrum Master says it\u2019s poor",
+            "d": "Never \u2014 all \u201cdone\u201d work must be accepted"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO has the right and responsibility to accept or reject work that doesn't meet value or DoD standards."
+    },
+    {
+        "id": 113,
+        "question": "A Product Owner is consistently late to Sprint Planning. What could be the impact? (Variant 14)",
+        "options": {
+            "a": "No major impact if backlog is ready",
+            "b": "Loss of trust, unclear Sprint Goals, and misalignment on priorities",
+            "c": "Better self-management from the team",
+            "d": "Faster Sprints"
+        },
+        "correct_answer": "b",
+        "explanation": "PO presence in planning is essential for setting direction, clarifying priorities, and co-creating goals."
+    },
+    {
+        "id": 114,
+        "question": "What should a Product Owner use to support value-based decisions? (Variant 15)",
+        "options": {
+            "a": "Customer feedback",
+            "b": "Business KPIs",
+            "c": "Cost of delay",
+            "d": "Number of lines of code",
+            "e": "Total story points"
+        },
+        "correct_answer": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "Value-based decisions rely on outcome-oriented data, not vanity metrics."
+    },
+    {
+        "id": 115,
+        "question": "A stakeholder requests frequent changes. How should the Product Owner handle this? (Variant 16)",
+        "options": {
+            "a": "Reject all mid-Sprint changes",
+            "b": "Welcome new information, evaluate based on value, and adapt backlog accordingly",
+            "c": "Ask Scrum Master to block changes",
+            "d": "Only allow changes during refinement"
+        },
+        "correct_answer": "b",
+        "explanation": "Scrum is adaptive. Mid-Sprint changes aren\u2019t implemented during the Sprint, but POs still inspect and plan for the future."
+    },
+    {
+        "id": 116,
+        "question": "What is a common anti-pattern in Product Ownership? (Variant 17)",
+        "options": {
+            "a": "Using metrics to make decisions",
+            "b": "Acting as a proxy for stakeholders without engaging them directly",
+            "c": "Setting a clear Product Goal",
+            "d": "Sharing backlog ownership with the team"
+        },
+        "correct_answer": "b",
+        "explanation": "A great PO brings stakeholders into the process instead of merely representing them."
+    },
+    {
+        "id": 117,
+        "question": "Who decides whether to release an increment to production? (Variant 18)",
+        "options": {
+            "a": "Scrum Master",
+            "b": "Product Owner",
+            "c": "Development Team",
+            "d": "Project Manager"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO owns value delivery and makes release decisions based on business readiness."
+    },
+    {
+        "id": 118,
+        "question": "What\u2019s the best way for a Product Owner to handle technical debt? (Variant 19)",
+        "options": {
+            "a": "Ignore it if it's not visible",
+            "b": "Work with the team to understand its impact on value and prioritize accordingly",
+            "c": "Let developers decide alone",
+            "d": "Move it to a separate backlog"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO must understand the long-term cost of tech debt and balance it against value delivery."
+    },
+    {
+        "id": 119,
+        "question": "Which tool is best for measuring a Product Owner's effectiveness? (Variant 20)",
+        "options": {
+            "a": "Velocity chart",
+            "b": "Burndown chart",
+            "c": "Evidence-Based Management (EBM) framework",
+            "d": "Number of bugs fixed"
+        },
+        "correct_answer": "c",
+        "explanation": "EBM focuses on value metrics (e.g., time-to-market, customer satisfaction) and supports continuous improvement."
+    },
+    {
+        "id": 120,
+        "question": "You notice that the team completes every Sprint but rarely reflects on value outcomes. What should you do as a Product Owner? (Variant 21)",
+        "options": {
+            "a": "Focus on throughput",
+            "b": "Encourage discussion around user feedback and business results during Sprint Reviews",
+            "c": "Ask the Scrum Master to add more refinement meetings",
+            "d": "Increase team velocity"
+        },
+        "correct_answer": "b",
+        "explanation": "Sprint Reviews are for inspecting value, not just delivery. A good PO steers attention to outcomes."
+    },
+    {
+        "id": 121,
+        "question": "What does it mean for a Product Owner to act as a \u201cvalue maximizer\u201d? (Variant 22)",
+        "options": {
+            "a": "Ensure all backlog items are delivered",
+            "b": "Create the most PBIs",
+            "c": "Continuously optimize what the team builds to improve stakeholder and user outcomes",
+            "d": "Decrease bugs in production"
+        },
+        "correct_answer": "c",
+        "explanation": "The PO role isn\u2019t about output volume but focusing the team on value creation and adaptation."
+    },
+    {
+        "id": 122,
+        "question": "When would a Product Owner consider rejecting a \u201cdone\u201d increment? (Variant 23)",
+        "options": {
+            "a": "When it's missing unit tests",
+            "b": "If it does not deliver value or meet the Definition of Done",
+            "c": "If the Scrum Master says it\u2019s poor",
+            "d": "Never \u2014 all \u201cdone\u201d work must be accepted"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO has the right and responsibility to accept or reject work that doesn't meet value or DoD standards."
+    },
+    {
+        "id": 123,
+        "question": "A Product Owner is consistently late to Sprint Planning. What could be the impact? (Variant 24)",
+        "options": {
+            "a": "No major impact if backlog is ready",
+            "b": "Loss of trust, unclear Sprint Goals, and misalignment on priorities",
+            "c": "Better self-management from the team",
+            "d": "Faster Sprints"
+        },
+        "correct_answer": "b",
+        "explanation": "PO presence in planning is essential for setting direction, clarifying priorities, and co-creating goals."
+    },
+    {
+        "id": 124,
+        "question": "What should a Product Owner use to support value-based decisions? (Variant 25)",
+        "options": {
+            "a": "Customer feedback",
+            "b": "Business KPIs",
+            "c": "Cost of delay",
+            "d": "Number of lines of code",
+            "e": "Total story points"
+        },
+        "correct_answer": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "Value-based decisions rely on outcome-oriented data, not vanity metrics."
+    },
+    {
+        "id": 125,
+        "question": "A stakeholder requests frequent changes. How should the Product Owner handle this? (Variant 26)",
+        "options": {
+            "a": "Reject all mid-Sprint changes",
+            "b": "Welcome new information, evaluate based on value, and adapt backlog accordingly",
+            "c": "Ask Scrum Master to block changes",
+            "d": "Only allow changes during refinement"
+        },
+        "correct_answer": "b",
+        "explanation": "Scrum is adaptive. Mid-Sprint changes aren\u2019t implemented during the Sprint, but POs still inspect and plan for the future."
+    },
+    {
+        "id": 126,
+        "question": "What is a common anti-pattern in Product Ownership? (Variant 27)",
+        "options": {
+            "a": "Using metrics to make decisions",
+            "b": "Acting as a proxy for stakeholders without engaging them directly",
+            "c": "Setting a clear Product Goal",
+            "d": "Sharing backlog ownership with the team"
+        },
+        "correct_answer": "b",
+        "explanation": "A great PO brings stakeholders into the process instead of merely representing them."
+    },
+    {
+        "id": 127,
+        "question": "Who decides whether to release an increment to production? (Variant 28)",
+        "options": {
+            "a": "Scrum Master",
+            "b": "Product Owner",
+            "c": "Development Team",
+            "d": "Project Manager"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO owns value delivery and makes release decisions based on business readiness."
+    },
+    {
+        "id": 128,
+        "question": "What\u2019s the best way for a Product Owner to handle technical debt? (Variant 29)",
+        "options": {
+            "a": "Ignore it if it's not visible",
+            "b": "Work with the team to understand its impact on value and prioritize accordingly",
+            "c": "Let developers decide alone",
+            "d": "Move it to a separate backlog"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO must understand the long-term cost of tech debt and balance it against value delivery."
+    },
+    {
+        "id": 129,
+        "question": "Which tool is best for measuring a Product Owner's effectiveness? (Variant 30)",
+        "options": {
+            "a": "Velocity chart",
+            "b": "Burndown chart",
+            "c": "Evidence-Based Management (EBM) framework",
+            "d": "Number of bugs fixed"
+        },
+        "correct_answer": "c",
+        "explanation": "EBM focuses on value metrics (e.g., time-to-market, customer satisfaction) and supports continuous improvement."
+    },
+    {
+        "id": 130,
+        "question": "You notice that the team completes every Sprint but rarely reflects on value outcomes. What should you do as a Product Owner? (Variant 31)",
+        "options": {
+            "a": "Focus on throughput",
+            "b": "Encourage discussion around user feedback and business results during Sprint Reviews",
+            "c": "Ask the Scrum Master to add more refinement meetings",
+            "d": "Increase team velocity"
+        },
+        "correct_answer": "b",
+        "explanation": "Sprint Reviews are for inspecting value, not just delivery. A good PO steers attention to outcomes."
+    },
+    {
+        "id": 131,
+        "question": "What does it mean for a Product Owner to act as a \u201cvalue maximizer\u201d? (Variant 32)",
+        "options": {
+            "a": "Ensure all backlog items are delivered",
+            "b": "Create the most PBIs",
+            "c": "Continuously optimize what the team builds to improve stakeholder and user outcomes",
+            "d": "Decrease bugs in production"
+        },
+        "correct_answer": "c",
+        "explanation": "The PO role isn\u2019t about output volume but focusing the team on value creation and adaptation."
+    },
+    {
+        "id": 132,
+        "question": "When would a Product Owner consider rejecting a \u201cdone\u201d increment? (Variant 33)",
+        "options": {
+            "a": "When it's missing unit tests",
+            "b": "If it does not deliver value or meet the Definition of Done",
+            "c": "If the Scrum Master says it\u2019s poor",
+            "d": "Never \u2014 all \u201cdone\u201d work must be accepted"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO has the right and responsibility to accept or reject work that doesn't meet value or DoD standards."
+    },
+    {
+        "id": 133,
+        "question": "A Product Owner is consistently late to Sprint Planning. What could be the impact? (Variant 34)",
+        "options": {
+            "a": "No major impact if backlog is ready",
+            "b": "Loss of trust, unclear Sprint Goals, and misalignment on priorities",
+            "c": "Better self-management from the team",
+            "d": "Faster Sprints"
+        },
+        "correct_answer": "b",
+        "explanation": "PO presence in planning is essential for setting direction, clarifying priorities, and co-creating goals."
+    },
+    {
+        "id": 134,
+        "question": "What should a Product Owner use to support value-based decisions? (Variant 35)",
+        "options": {
+            "a": "Customer feedback",
+            "b": "Business KPIs",
+            "c": "Cost of delay",
+            "d": "Number of lines of code",
+            "e": "Total story points"
+        },
+        "correct_answer": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "Value-based decisions rely on outcome-oriented data, not vanity metrics."
+    },
+    {
+        "id": 135,
+        "question": "A stakeholder requests frequent changes. How should the Product Owner handle this? (Variant 36)",
+        "options": {
+            "a": "Reject all mid-Sprint changes",
+            "b": "Welcome new information, evaluate based on value, and adapt backlog accordingly",
+            "c": "Ask Scrum Master to block changes",
+            "d": "Only allow changes during refinement"
+        },
+        "correct_answer": "b",
+        "explanation": "Scrum is adaptive. Mid-Sprint changes aren\u2019t implemented during the Sprint, but POs still inspect and plan for the future."
+    },
+    {
+        "id": 136,
+        "question": "What is a common anti-pattern in Product Ownership? (Variant 37)",
+        "options": {
+            "a": "Using metrics to make decisions",
+            "b": "Acting as a proxy for stakeholders without engaging them directly",
+            "c": "Setting a clear Product Goal",
+            "d": "Sharing backlog ownership with the team"
+        },
+        "correct_answer": "b",
+        "explanation": "A great PO brings stakeholders into the process instead of merely representing them."
+    },
+    {
+        "id": 137,
+        "question": "Who decides whether to release an increment to production? (Variant 38)",
+        "options": {
+            "a": "Scrum Master",
+            "b": "Product Owner",
+            "c": "Development Team",
+            "d": "Project Manager"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO owns value delivery and makes release decisions based on business readiness."
+    },
+    {
+        "id": 138,
+        "question": "What\u2019s the best way for a Product Owner to handle technical debt? (Variant 39)",
+        "options": {
+            "a": "Ignore it if it's not visible",
+            "b": "Work with the team to understand its impact on value and prioritize accordingly",
+            "c": "Let developers decide alone",
+            "d": "Move it to a separate backlog"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO must understand the long-term cost of tech debt and balance it against value delivery."
+    },
+    {
+        "id": 139,
+        "question": "Which tool is best for measuring a Product Owner's effectiveness? (Variant 40)",
+        "options": {
+            "a": "Velocity chart",
+            "b": "Burndown chart",
+            "c": "Evidence-Based Management (EBM) framework",
+            "d": "Number of bugs fixed"
+        },
+        "correct_answer": "c",
+        "explanation": "EBM focuses on value metrics (e.g., time-to-market, customer satisfaction) and supports continuous improvement."
+    },
+    {
+        "id": 140,
+        "question": "You notice that the team completes every Sprint but rarely reflects on value outcomes. What should you do as a Product Owner? (Variant 41)",
+        "options": {
+            "a": "Focus on throughput",
+            "b": "Encourage discussion around user feedback and business results during Sprint Reviews",
+            "c": "Ask the Scrum Master to add more refinement meetings",
+            "d": "Increase team velocity"
+        },
+        "correct_answer": "b",
+        "explanation": "Sprint Reviews are for inspecting value, not just delivery. A good PO steers attention to outcomes."
+    },
+    {
+        "id": 141,
+        "question": "What does it mean for a Product Owner to act as a \u201cvalue maximizer\u201d? (Variant 42)",
+        "options": {
+            "a": "Ensure all backlog items are delivered",
+            "b": "Create the most PBIs",
+            "c": "Continuously optimize what the team builds to improve stakeholder and user outcomes",
+            "d": "Decrease bugs in production"
+        },
+        "correct_answer": "c",
+        "explanation": "The PO role isn\u2019t about output volume but focusing the team on value creation and adaptation."
+    },
+    {
+        "id": 142,
+        "question": "When would a Product Owner consider rejecting a \u201cdone\u201d increment? (Variant 43)",
+        "options": {
+            "a": "When it's missing unit tests",
+            "b": "If it does not deliver value or meet the Definition of Done",
+            "c": "If the Scrum Master says it\u2019s poor",
+            "d": "Never \u2014 all \u201cdone\u201d work must be accepted"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO has the right and responsibility to accept or reject work that doesn't meet value or DoD standards."
+    },
+    {
+        "id": 143,
+        "question": "A Product Owner is consistently late to Sprint Planning. What could be the impact? (Variant 44)",
+        "options": {
+            "a": "No major impact if backlog is ready",
+            "b": "Loss of trust, unclear Sprint Goals, and misalignment on priorities",
+            "c": "Better self-management from the team",
+            "d": "Faster Sprints"
+        },
+        "correct_answer": "b",
+        "explanation": "PO presence in planning is essential for setting direction, clarifying priorities, and co-creating goals."
+    },
+    {
+        "id": 144,
+        "question": "What should a Product Owner use to support value-based decisions? (Variant 45)",
+        "options": {
+            "a": "Customer feedback",
+            "b": "Business KPIs",
+            "c": "Cost of delay",
+            "d": "Number of lines of code",
+            "e": "Total story points"
+        },
+        "correct_answer": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "Value-based decisions rely on outcome-oriented data, not vanity metrics."
+    },
+    {
+        "id": 145,
+        "question": "A stakeholder requests frequent changes. How should the Product Owner handle this? (Variant 46)",
+        "options": {
+            "a": "Reject all mid-Sprint changes",
+            "b": "Welcome new information, evaluate based on value, and adapt backlog accordingly",
+            "c": "Ask Scrum Master to block changes",
+            "d": "Only allow changes during refinement"
+        },
+        "correct_answer": "b",
+        "explanation": "Scrum is adaptive. Mid-Sprint changes aren\u2019t implemented during the Sprint, but POs still inspect and plan for the future."
+    },
+    {
+        "id": 146,
+        "question": "What is a common anti-pattern in Product Ownership? (Variant 47)",
+        "options": {
+            "a": "Using metrics to make decisions",
+            "b": "Acting as a proxy for stakeholders without engaging them directly",
+            "c": "Setting a clear Product Goal",
+            "d": "Sharing backlog ownership with the team"
+        },
+        "correct_answer": "b",
+        "explanation": "A great PO brings stakeholders into the process instead of merely representing them."
+    },
+    {
+        "id": 147,
+        "question": "Who decides whether to release an increment to production? (Variant 48)",
+        "options": {
+            "a": "Scrum Master",
+            "b": "Product Owner",
+            "c": "Development Team",
+            "d": "Project Manager"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO owns value delivery and makes release decisions based on business readiness."
+    },
+    {
+        "id": 148,
+        "question": "What\u2019s the best way for a Product Owner to handle technical debt? (Variant 49)",
+        "options": {
+            "a": "Ignore it if it's not visible",
+            "b": "Work with the team to understand its impact on value and prioritize accordingly",
+            "c": "Let developers decide alone",
+            "d": "Move it to a separate backlog"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO must understand the long-term cost of tech debt and balance it against value delivery."
+    },
+    {
+        "id": 149,
+        "question": "Which tool is best for measuring a Product Owner's effectiveness? (Variant 50)",
+        "options": {
+            "a": "Velocity chart",
+            "b": "Burndown chart",
+            "c": "Evidence-Based Management (EBM) framework",
+            "d": "Number of bugs fixed"
+        },
+        "correct_answer": "c",
+        "explanation": "EBM focuses on value metrics (e.g., time-to-market, customer satisfaction) and supports continuous improvement."
+    },
+    {
+        "id": 150,
+        "question": "You notice that the team completes every Sprint but rarely reflects on value outcomes. What should you do as a Product Owner? (Variant 51)",
+        "options": {
+            "a": "Focus on throughput",
+            "b": "Encourage discussion around user feedback and business results during Sprint Reviews",
+            "c": "Ask the Scrum Master to add more refinement meetings",
+            "d": "Increase team velocity"
+        },
+        "correct_answer": "b",
+        "explanation": "Sprint Reviews are for inspecting value, not just delivery. A good PO steers attention to outcomes."
+    },
+    {
+        "id": 151,
+        "question": "What does it mean for a Product Owner to act as a \u201cvalue maximizer\u201d? (Variant 52)",
+        "options": {
+            "a": "Ensure all backlog items are delivered",
+            "b": "Create the most PBIs",
+            "c": "Continuously optimize what the team builds to improve stakeholder and user outcomes",
+            "d": "Decrease bugs in production"
+        },
+        "correct_answer": "c",
+        "explanation": "The PO role isn\u2019t about output volume but focusing the team on value creation and adaptation."
+    },
+    {
+        "id": 152,
+        "question": "When would a Product Owner consider rejecting a \u201cdone\u201d increment? (Variant 53)",
+        "options": {
+            "a": "When it's missing unit tests",
+            "b": "If it does not deliver value or meet the Definition of Done",
+            "c": "If the Scrum Master says it\u2019s poor",
+            "d": "Never \u2014 all \u201cdone\u201d work must be accepted"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO has the right and responsibility to accept or reject work that doesn't meet value or DoD standards."
+    },
+    {
+        "id": 153,
+        "question": "A Product Owner is consistently late to Sprint Planning. What could be the impact? (Variant 54)",
+        "options": {
+            "a": "No major impact if backlog is ready",
+            "b": "Loss of trust, unclear Sprint Goals, and misalignment on priorities",
+            "c": "Better self-management from the team",
+            "d": "Faster Sprints"
+        },
+        "correct_answer": "b",
+        "explanation": "PO presence in planning is essential for setting direction, clarifying priorities, and co-creating goals."
+    },
+    {
+        "id": 154,
+        "question": "What should a Product Owner use to support value-based decisions? (Variant 55)",
+        "options": {
+            "a": "Customer feedback",
+            "b": "Business KPIs",
+            "c": "Cost of delay",
+            "d": "Number of lines of code",
+            "e": "Total story points"
+        },
+        "correct_answer": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "Value-based decisions rely on outcome-oriented data, not vanity metrics."
+    },
+    {
+        "id": 155,
+        "question": "A stakeholder requests frequent changes. How should the Product Owner handle this? (Variant 56)",
+        "options": {
+            "a": "Reject all mid-Sprint changes",
+            "b": "Welcome new information, evaluate based on value, and adapt backlog accordingly",
+            "c": "Ask Scrum Master to block changes",
+            "d": "Only allow changes during refinement"
+        },
+        "correct_answer": "b",
+        "explanation": "Scrum is adaptive. Mid-Sprint changes aren\u2019t implemented during the Sprint, but POs still inspect and plan for the future."
+    },
+    {
+        "id": 156,
+        "question": "What is a common anti-pattern in Product Ownership? (Variant 57)",
+        "options": {
+            "a": "Using metrics to make decisions",
+            "b": "Acting as a proxy for stakeholders without engaging them directly",
+            "c": "Setting a clear Product Goal",
+            "d": "Sharing backlog ownership with the team"
+        },
+        "correct_answer": "b",
+        "explanation": "A great PO brings stakeholders into the process instead of merely representing them."
+    },
+    {
+        "id": 157,
+        "question": "Who decides whether to release an increment to production? (Variant 58)",
+        "options": {
+            "a": "Scrum Master",
+            "b": "Product Owner",
+            "c": "Development Team",
+            "d": "Project Manager"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO owns value delivery and makes release decisions based on business readiness."
+    },
+    {
+        "id": 158,
+        "question": "What\u2019s the best way for a Product Owner to handle technical debt? (Variant 59)",
+        "options": {
+            "a": "Ignore it if it's not visible",
+            "b": "Work with the team to understand its impact on value and prioritize accordingly",
+            "c": "Let developers decide alone",
+            "d": "Move it to a separate backlog"
+        },
+        "correct_answer": "b",
+        "explanation": "The PO must understand the long-term cost of tech debt and balance it against value delivery."
+    },
+    {
+        "id": 159,
+        "question": "Which tool is best for measuring a Product Owner's effectiveness? (Variant 60)",
+        "options": {
+            "a": "Velocity chart",
+            "b": "Burndown chart",
+            "c": "Evidence-Based Management (EBM) framework",
+            "d": "Number of bugs fixed"
+        },
+        "correct_answer": "c",
+        "explanation": "EBM focuses on value metrics (e.g., time-to-market, customer satisfaction) and supports continuous improvement."
+    }
+]
